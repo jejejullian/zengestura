@@ -1,0 +1,76 @@
+.home {
+  background: url("../img/pic1.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.home .content {
+  display: block;
+  width: 80rem;
+  margin-top: 6rem;
+}
+
+.home .content h2 {
+  font-size: 6rem;
+  color: var(--white);
+  text-shadow: 2px 2px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+.home .content p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+  text-shadow: 1px 1px black;
+}
+
+.home a {
+  font-size: 1.5rem;
+}
+
+.home .content .btn-custom {
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.home .content .btn-custom:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+@media screen and (max-width: 760px) {
+  .home .content h2 {
+    font-size: 5rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home .content{
+    text-align: center;
+  }
+  
+    .home .content h2 {
+    font-size: 4rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+  }
+}
